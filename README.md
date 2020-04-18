@@ -1,6 +1,9 @@
 # TIGERs Mannheim Open-Source Electronics
 
-This repository contains electronics for our robots and our base station. There is one folder for each released version. The following files are present for each release.
+This repository contains electronics for our robots and our base station. There is one folder for each released version.  
+Have a look at our [2020 ETDP](https://tigers-mannheim.de/download/tdps/2020_ETDP_TIGERS.pdf) which contains many details about design decisions and lessons learned over the last 10 years.
+
+The following files are present for each release.
 
 ### EAGLE
 Electronics are designed with [Autodesk EAGLE](https://www.autodesk.com/education/free-software/eagle) which is available for free for students.
