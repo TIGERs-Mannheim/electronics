@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "Mainboard v13-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Mainboard v13-eagle-import.kicad_sym")(options "")(descr ""))
+)

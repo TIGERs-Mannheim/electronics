@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Encoder iC-PX v1b")(type "KiCad")(uri "$(KIPRJMOD)/Encoder iC-PX v1b.pretty")(options "")(descr ""))
+)

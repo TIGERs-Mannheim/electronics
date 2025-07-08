@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "Ball Detection v4-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Ball Detection v4-eagle-import.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,7009 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d255d9cb-d643-423e-9d86-a16647b3e8d3")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Front LEDs v1b-eagle-import:+5V"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#P+"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -5.08 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_1_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.905) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "+5V"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Front LEDs v1b-eagle-import:BCR420_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at -7.62 5.588 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -7.62 -7.62 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Front LEDs v1b:SOT26"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BCR420_1_1_0"
+				(polyline
+					(pts
+						(xy -7.62 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy -7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "REXT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Front LEDs v1b-eagle-import:CREE-XLAMP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 3.556 -4.572 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 5.715 -4.572 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Front LEDs v1b:CREE-XLAMP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CREE-XLAMP_1_0"
+				(polyline
+					(pts
+						(xy -4.032 -2.7323) (xy -3.143 -2.3513) (xy -3.651 -1.8433)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.8347 -3.8662) (xy -2.9457 -3.4852) (xy -3.4537 -2.9772)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy -3.429 -2.159)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.905) (xy -3.302 -3.302)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CREE-XLAMP_2_0"
+				(polyline
+					(pts
+						(xy -4.0352 -2.7175) (xy -3.1462 -2.3365) (xy -3.6542 -1.8285)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.8815 -3.8465) (xy -2.9925 -3.4655) (xy -3.5005 -2.9575)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy -3.429 -2.159)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.905) (xy -3.302 -3.302)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CREE-XLAMP_3_0"
+				(polyline
+					(pts
+						(xy -3.9827 -2.6929) (xy -3.0937 -2.3119) (xy -3.6017 -1.8039)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.824 -3.8662) (xy -2.935 -3.4852) (xy -3.443 -2.9772)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy -3.429 -2.159)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.905) (xy -3.302 -3.302)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CREE-XLAMP_4_0"
+				(polyline
+					(pts
+						(xy -3.9827 -2.6633) (xy -3.0937 -2.2823) (xy -3.6017 -1.7743)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.9521 -3.9056) (xy -3.0631 -3.5246) (xy -3.5711 -3.0166)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy -3.429 -2.159)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.905) (xy -3.302 -3.302)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Front LEDs v1b-eagle-import:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Front LEDs v1b-eagle-import:R-EU_R0805"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -3.81 1.4986 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 -3.302 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Front LEDs v1b:R0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RESISTOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R-EU_R0805_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -0.889) (xy -2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.889) (xy 2.54 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.889) (xy -2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.889) (xy 2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Front LEDs v1b-eagle-import:TE-FPC-1MM-10H"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at 5.588 -0.762 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -3.302 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Front LEDs v1b:TE-1-84952-0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "TE Connectivity 1.0 FPC, ZIF V/T, SMT, 10P\nPart Number:  1-1734248-0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TE-FPC-1MM-10H_1_0"
+				(rectangle
+					(start 2.286 -0.508)
+					(end 4.826 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 2.54)
+					(name "-1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TE-FPC-1MM-10H_2_0"
+				(rectangle
+					(start 2.286 -0.508)
+					(end 4.826 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 2.54)
+					(name "-1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TE-FPC-1MM-10H_3_0"
+				(rectangle
+					(start 2.286 -0.508)
+					(end 4.826 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 2.54)
+					(name "-1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TE-FPC-1MM-10H_4_0"
+				(rectangle
+					(start 2.286 -0.508)
+					(end 4.826 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 2.54)
+					(name "-1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TE-FPC-1MM-10H_5_0"
+				(rectangle
+					(start 2.286 -0.508)
+					(end 4.826 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 2.54)
+					(name "-1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TE-FPC-1MM-10H_6_0"
+				(rectangle
+					(start 2.286 -0.508)
+					(end 4.826 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 2.54)
+					(name "-1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TE-FPC-1MM-10H_7_0"
+				(rectangle
+					(start 2.286 -0.508)
+					(end 4.826 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 2.54)
+					(name "-1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TE-FPC-1MM-10H_8_0"
+				(rectangle
+					(start 2.286 -0.508)
+					(end 4.826 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 2.54)
+					(name "-1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TE-FPC-1MM-10H_9_0"
+				(rectangle
+					(start 2.286 -0.508)
+					(end 4.826 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 2.54)
+					(name "-1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TE-FPC-1MM-10H_10_0"
+				(rectangle
+					(start 2.286 -0.508)
+					(end 4.826 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 2.54)
+					(name "-1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "LED: Cree XMLCTW-A0-0000-00C2AAAB1"
+		(exclude_from_sim no)
+		(at 178.435 170.815 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "09937ca2-e327-45d2-8176-031cfbc0d8b0")
+	)
+	(text "Design: A. Ryll"
+		(exclude_from_sim no)
+		(at 178.435 175.895 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b4200ea-82eb-4b11-8066-6aaa9a881201")
+	)
+	(junction
+		(at 238.76 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "678e69e2-9f59-4442-a110-5d511a002c25")
+	)
+	(junction
+		(at 63.5 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "768fafa4-053b-4399-a5e1-f3e6f62a4027")
+	)
+	(junction
+		(at 177.8 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e9a9489-4641-4bd7-8fd8-930a8ef8db52")
+	)
+	(junction
+		(at 119.38 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84eba7b9-afda-4fd4-bc47-877e870007c2")
+	)
+	(junction
+		(at 177.8 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8abb7a5-8136-4986-aead-ffe033a2f578")
+	)
+	(junction
+		(at 119.38 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b84012b5-8051-4085-a5d3-373532fb5630")
+	)
+	(junction
+		(at 238.76 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3463edd-91ae-479a-b0a8-015bfa69bfe1")
+	)
+	(junction
+		(at 63.5 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe1a8626-dc4e-4911-9550-5018803c50a5")
+	)
+	(wire
+		(pts
+			(xy 175.26 116.84) (xy 177.8 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0186808d-de3e-4e84-bb9d-b25bb3a31da6")
+	)
+	(wire
+		(pts
+			(xy 243.84 134.62) (xy 243.84 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "02a384e8-acee-4778-aaa3-3a9fae9cb1ab")
+	)
+	(wire
+		(pts
+			(xy 116.84 66.04) (xy 119.38 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "067dc461-07ff-479e-821b-e5798fa2c9e6")
+	)
+	(wire
+		(pts
+			(xy 124.46 78.74) (xy 124.46 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "122ed4fe-28b8-404e-9ec1-7f0fd60ce484")
+	)
+	(wire
+		(pts
+			(xy 66.04 162.56) (xy 48.26 162.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1249e945-4d15-4f20-a4bb-d06aeccea9bd")
+	)
+	(wire
+		(pts
+			(xy 63.5 121.92) (xy 63.5 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "138d3b64-ab3e-4d59-9d65-52ec12f6abd4")
+	)
+	(wire
+		(pts
+			(xy 116.84 119.38) (xy 124.46 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "153d1b6e-b2fa-49af-83fe-9b7dccaf5a40")
+	)
+	(wire
+		(pts
+			(xy 119.38 78.74) (xy 119.38 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "179f7438-a96d-427c-bad2-9659349de204")
+	)
+	(wire
+		(pts
+			(xy 63.5 60.96) (xy 63.5 55.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "17bbf517-6da9-4055-9d56-e9f260532013")
+	)
+	(wire
+		(pts
+			(xy 116.84 63.5) (xy 124.46 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "19b34511-07df-4d33-b3f5-8d5bd2444b7e")
+	)
+	(wire
+		(pts
+			(xy 177.8 104.14) (xy 177.8 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1b624882-c7b1-4937-9e58-47a25051585c")
+	)
+	(wire
+		(pts
+			(xy 177.8 66.04) (xy 177.8 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1e6a1d0a-5c57-4b04-a4e1-c2d50047f22b")
+	)
+	(wire
+		(pts
+			(xy 63.5 116.84) (xy 63.5 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1e7381d4-681a-4339-90b2-ad7a0d136239")
+	)
+	(wire
+		(pts
+			(xy 63.5 104.14) (xy 63.5 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "28e011f4-44dd-4f7c-bf84-828ecba9f26a")
+	)
+	(wire
+		(pts
+			(xy 243.84 78.74) (xy 243.84 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "29bbf9ba-dc25-4211-b8d1-b3f8d9a9c4e0")
+	)
+	(wire
+		(pts
+			(xy 66.04 172.72) (xy 48.26 172.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2de7c12f-8a07-46cd-9e26-9377b40f5c99")
+	)
+	(wire
+		(pts
+			(xy 68.58 134.62) (xy 68.58 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2e56ce6f-2708-468f-b358-cd6141d8dea9")
+	)
+	(wire
+		(pts
+			(xy 116.84 121.92) (xy 119.38 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2ef45fa3-1fd2-419f-b989-c8b8bd352772")
+	)
+	(wire
+		(pts
+			(xy 63.5 154.94) (xy 63.5 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "32497e82-30fc-4739-b650-dd7b67f5f639")
+	)
+	(wire
+		(pts
+			(xy 96.52 63.5) (xy 86.36 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3858ea36-04e2-4692-aecb-79b7a515321e")
+	)
+	(wire
+		(pts
+			(xy 63.5 134.62) (xy 63.5 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3d276da2-8cdc-4681-825c-41553082aef8")
+	)
+	(wire
+		(pts
+			(xy 215.9 119.38) (xy 205.74 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "408bfc44-0164-42e4-96ca-46b702b92fef")
+	)
+	(wire
+		(pts
+			(xy 236.22 121.92) (xy 238.76 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "445ca210-4edd-4ff1-a2ef-1677e0dce90a")
+	)
+	(wire
+		(pts
+			(xy 236.22 66.04) (xy 238.76 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "44d4880f-915f-4355-84eb-53ed1fabfd18")
+	)
+	(wire
+		(pts
+			(xy 182.88 78.74) (xy 182.88 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "464b4e6f-4359-46a5-a962-4a8df02bbfcc")
+	)
+	(wire
+		(pts
+			(xy 238.76 60.96) (xy 238.76 55.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "47424097-5c0b-45cf-bc53-812a1defd0b5")
+	)
+	(wire
+		(pts
+			(xy 119.38 48.26) (xy 119.38 43.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4b7ad32e-9b83-41ec-a168-a1709e28b9f6")
+	)
+	(wire
+		(pts
+			(xy 238.76 104.14) (xy 238.76 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4bb78a0a-5c39-4414-a2ac-29e041af35ef")
+	)
+	(wire
+		(pts
+			(xy 236.22 116.84) (xy 238.76 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4dd596fd-cdce-4235-8e64-8b5ddf167f88")
+	)
+	(wire
+		(pts
+			(xy 175.26 60.96) (xy 177.8 60.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4f9950ef-289d-430a-aefa-b08186650847")
+	)
+	(wire
+		(pts
+			(xy 66.04 167.64) (xy 48.26 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "52c6b899-db9b-41d8-89e1-f5e32fd31c3b")
+	)
+	(wire
+		(pts
+			(xy 154.94 119.38) (xy 144.78 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "54f83657-612c-4d6c-9360-7a1a8ed20cc7")
+	)
+	(wire
+		(pts
+			(xy 175.26 63.5) (xy 182.88 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5bd49535-ec17-4295-a079-64914ac08b0a")
+	)
+	(wire
+		(pts
+			(xy 119.38 134.62) (xy 124.46 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5db2eb0a-1c93-438f-960b-ca024b98a26e")
+	)
+	(wire
+		(pts
+			(xy 60.96 121.92) (xy 63.5 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5e79a8e8-fb4e-454d-8496-b22b28409cad")
+	)
+	(wire
+		(pts
+			(xy 66.04 175.26) (xy 48.26 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5f293fca-d73d-4d0f-b333-6203b7c589fe")
+	)
+	(wire
+		(pts
+			(xy 68.58 119.38) (xy 68.58 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5f4a830b-86f1-45f4-b89a-f049bbb4de72")
+	)
+	(wire
+		(pts
+			(xy 177.8 134.62) (xy 182.88 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "64cb1069-3677-4638-83ce-5785940b2928")
+	)
+	(wire
+		(pts
+			(xy 238.76 48.26) (xy 238.76 43.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "67742251-eb0e-4cda-9505-e6dee34e85cf")
+	)
+	(wire
+		(pts
+			(xy 66.04 160.02) (xy 48.26 160.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6b073a51-33ac-46ae-ba70-4134d1e5f01a")
+	)
+	(wire
+		(pts
+			(xy 63.5 66.04) (xy 63.5 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6e79b4ce-6c00-414e-b982-459446c75697")
+	)
+	(wire
+		(pts
+			(xy 96.52 119.38) (xy 86.36 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "70704732-3242-4eb8-acfb-53248390c428")
+	)
+	(wire
+		(pts
+			(xy 182.88 134.62) (xy 182.88 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "71e9cba9-c8b8-4378-ba44-0985923f44c2")
+	)
+	(wire
+		(pts
+			(xy 238.76 121.92) (xy 238.76 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "726b11ef-7ca9-410d-ad8f-d49f4f5ee062")
+	)
+	(wire
+		(pts
+			(xy 66.04 157.48) (xy 48.26 157.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "753f505c-3f78-4227-9470-2bf2ceaf0ada")
+	)
+	(wire
+		(pts
+			(xy 124.46 134.62) (xy 124.46 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "75597831-eb6e-4f3f-9568-c7b3c5f4f0e7")
+	)
+	(wire
+		(pts
+			(xy 60.96 63.5) (xy 68.58 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7b0d8852-6e5f-4ddc-8161-213288525feb")
+	)
+	(wire
+		(pts
+			(xy 63.5 78.74) (xy 68.58 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7b35e37e-2b76-44af-b686-2c89f35e106b")
+	)
+	(wire
+		(pts
+			(xy 215.9 63.5) (xy 205.74 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7cb9a534-bfc0-4a43-acdc-9f16c7433692")
+	)
+	(wire
+		(pts
+			(xy 63.5 48.26) (xy 63.5 43.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7f7200e2-835b-4b52-9d0b-c9867a8aa0f9")
+	)
+	(wire
+		(pts
+			(xy 124.46 63.5) (xy 124.46 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "841ddd73-bce1-4bef-b21c-e9bdad25f8f9")
+	)
+	(wire
+		(pts
+			(xy 124.46 119.38) (xy 124.46 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "853c35f1-963b-482a-bfea-3e0e0c5b6d35")
+	)
+	(wire
+		(pts
+			(xy 66.04 165.1) (xy 48.26 165.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8897e542-33d9-40ce-bd43-8c81806f1111")
+	)
+	(wire
+		(pts
+			(xy 177.8 48.26) (xy 177.8 43.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8a23ec71-2857-4fb7-967a-b1efa338b308")
+	)
+	(wire
+		(pts
+			(xy 175.26 121.92) (xy 177.8 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8c1a57be-0de4-4458-9d86-eb32303bd877")
+	)
+	(wire
+		(pts
+			(xy 119.38 60.96) (xy 119.38 55.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8c72fef3-599d-4e07-9771-fc21a903d2e5")
+	)
+	(wire
+		(pts
+			(xy 60.96 119.38) (xy 68.58 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8c8d1d86-d8ce-497e-89f7-4df7eb4845ab")
+	)
+	(wire
+		(pts
+			(xy 243.84 63.5) (xy 243.84 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8df059dc-293f-460e-b6a3-968768ca5668")
+	)
+	(wire
+		(pts
+			(xy 116.84 60.96) (xy 119.38 60.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9001dbca-4831-402f-b33c-b004e8573bdf")
+	)
+	(wire
+		(pts
+			(xy 119.38 121.92) (xy 119.38 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "98b6ac15-ec69-4c79-921e-f6ce48b49d37")
+	)
+	(wire
+		(pts
+			(xy 60.96 66.04) (xy 63.5 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9bdb421b-0745-418d-8542-dfc0d77e541b")
+	)
+	(wire
+		(pts
+			(xy 66.04 154.94) (xy 63.5 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9d728d9b-ac55-4a66-bbe9-b4cd977ed5c3")
+	)
+	(wire
+		(pts
+			(xy 175.26 119.38) (xy 182.88 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a137aa9c-8bd8-406a-b146-23cfae647530")
+	)
+	(wire
+		(pts
+			(xy 154.94 63.5) (xy 144.78 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a2bf2ced-1b01-4a2e-9753-40d5bdcc53fc")
+	)
+	(wire
+		(pts
+			(xy 60.96 60.96) (xy 63.5 60.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a934ffc1-b473-4df4-9d1d-4fd17a8abae3")
+	)
+	(wire
+		(pts
+			(xy 40.64 63.5) (xy 30.48 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a9c5c582-50ce-4196-97a7-2d0826aa3549")
+	)
+	(wire
+		(pts
+			(xy 119.38 104.14) (xy 119.38 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "aa768687-26ce-4e93-9aba-3c671615ab84")
+	)
+	(wire
+		(pts
+			(xy 119.38 66.04) (xy 119.38 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "abc80c7a-242e-4861-9f57-3355d150dae6")
+	)
+	(wire
+		(pts
+			(xy 177.8 121.92) (xy 177.8 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ae1b060f-fe49-42cb-958e-63478fd74372")
+	)
+	(wire
+		(pts
+			(xy 177.8 116.84) (xy 177.8 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b23ba56d-415c-4676-a5ac-a2096e94c5b5")
+	)
+	(wire
+		(pts
+			(xy 119.38 78.74) (xy 124.46 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b28849bc-f267-46b8-8b2f-1657426ad993")
+	)
+	(wire
+		(pts
+			(xy 238.76 134.62) (xy 243.84 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b42711ce-acf6-4264-90e1-4f1038289ba0")
+	)
+	(wire
+		(pts
+			(xy 68.58 63.5) (xy 68.58 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b42f56ef-f151-485d-a3db-c57cf08b791a")
+	)
+	(wire
+		(pts
+			(xy 238.76 78.74) (xy 238.76 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b675d55e-663d-4652-bcf4-c03158d2526b")
+	)
+	(wire
+		(pts
+			(xy 182.88 119.38) (xy 182.88 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b68553cc-523b-4e49-819b-86041f0dd195")
+	)
+	(wire
+		(pts
+			(xy 238.76 134.62) (xy 238.76 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "baf3ce7c-2cdd-4e73-a8f4-f9b4dd0726f5")
+	)
+	(wire
+		(pts
+			(xy 238.76 78.74) (xy 243.84 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c07ade2a-ed2f-48e2-b80c-193933994bda")
+	)
+	(wire
+		(pts
+			(xy 177.8 78.74) (xy 182.88 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c136b650-f670-4b7c-b16a-d8eaed25675f")
+	)
+	(wire
+		(pts
+			(xy 119.38 134.62) (xy 119.38 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c86029ed-a470-4f78-9a93-5859781e88c4")
+	)
+	(wire
+		(pts
+			(xy 68.58 78.74) (xy 68.58 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cd5ddb4f-d4d8-4784-b9f5-a6b650056054")
+	)
+	(wire
+		(pts
+			(xy 177.8 60.96) (xy 177.8 55.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ce18e3e7-cd21-4b11-a42e-f5b894e5b5ba")
+	)
+	(wire
+		(pts
+			(xy 182.88 63.5) (xy 182.88 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ce326ee0-4de6-4e54-9bbd-4a59300b1a34")
+	)
+	(wire
+		(pts
+			(xy 63.5 177.8) (xy 63.5 180.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cf892ff0-2de9-4e42-a9f6-955a763460cc")
+	)
+	(wire
+		(pts
+			(xy 238.76 66.04) (xy 238.76 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d13eaebd-eaad-40da-b208-98ca64d537e1")
+	)
+	(wire
+		(pts
+			(xy 116.84 116.84) (xy 119.38 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d1889a56-1644-4bcb-a9f6-98e6992c295c")
+	)
+	(wire
+		(pts
+			(xy 63.5 134.62) (xy 68.58 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d3136caa-fdb7-49c7-bb2d-93db68be730b")
+	)
+	(wire
+		(pts
+			(xy 175.26 66.04) (xy 177.8 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "db547fb0-84c3-490f-8197-2c2771723a6a")
+	)
+	(wire
+		(pts
+			(xy 177.8 134.62) (xy 177.8 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dbb7dca5-9d5e-48e8-943a-9df4d466876b")
+	)
+	(wire
+		(pts
+			(xy 238.76 116.84) (xy 238.76 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "deae13c6-4713-4588-88c2-a113b7376ffd")
+	)
+	(wire
+		(pts
+			(xy 60.96 116.84) (xy 63.5 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e425dd4c-83e5-4e76-be09-e0f36bba25a5")
+	)
+	(wire
+		(pts
+			(xy 40.64 119.38) (xy 30.48 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e6038be1-63b9-4a90-aefe-c2ec92246a03")
+	)
+	(wire
+		(pts
+			(xy 236.22 119.38) (xy 243.84 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e66b0d9a-e54c-442b-846c-19240f93c2f7")
+	)
+	(wire
+		(pts
+			(xy 119.38 116.84) (xy 119.38 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e69b238d-d08c-4c9b-a6f5-51bb4ad62517")
+	)
+	(wire
+		(pts
+			(xy 66.04 177.8) (xy 63.5 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ef61a794-4fca-4717-8478-d5dc4dc79f7c")
+	)
+	(wire
+		(pts
+			(xy 63.5 78.74) (xy 63.5 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f19d973b-6eeb-4f6d-8362-53e0e304aab3")
+	)
+	(wire
+		(pts
+			(xy 177.8 78.74) (xy 177.8 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f4b7c5f2-293f-49e5-b055-a3a6d2fe024a")
+	)
+	(wire
+		(pts
+			(xy 243.84 119.38) (xy 243.84 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f4cae327-52de-4e56-a5a6-f6b49fa2d21b")
+	)
+	(wire
+		(pts
+			(xy 236.22 60.96) (xy 238.76 60.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f79cdf08-5086-442c-ae3b-2f379917afdb")
+	)
+	(wire
+		(pts
+			(xy 66.04 170.18) (xy 48.26 170.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f9be2220-2315-4a18-80de-90b0a7b669ee")
+	)
+	(wire
+		(pts
+			(xy 236.22 63.5) (xy 243.84 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fdbf196e-b6a0-4018-a6da-19669cac5e7c")
+	)
+	(label "TIM4-CH3"
+		(at 144.78 119.38 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "087d5489-ae21-4f3e-80ff-2c8e354ca7c1")
+	)
+	(label "TIM4-CH4"
+		(at 205.74 119.38 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ad7602c-ba1e-4c6b-8373-cff77262d50b")
+	)
+	(label "TIM3-CH3"
+		(at 48.26 162.56 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c204024-f57f-4878-abb9-6f8a0020410b")
+	)
+	(label "TIM4-CH2"
+		(at 48.26 170.18 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b6abe9f-7426-4902-a615-29d86319dd62")
+	)
+	(label "TIM4-CH3"
+		(at 48.26 172.72 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "612e7786-a62a-42e0-84ab-8f0b3802cd61")
+	)
+	(label "TIM4-CH2"
+		(at 86.36 119.38 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "777fe819-5d79-4b3c-97cc-dc334048b6b9")
+	)
+	(label "TIM4-CH1"
+		(at 48.26 167.64 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e1d3d60-5924-449e-b9b5-c0ead2aaef86")
+	)
+	(label "TIM3-CH4"
+		(at 205.74 63.5 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "89d390da-c42d-4466-8fe4-d250e40f06ff")
+	)
+	(label "TIM4-CH1"
+		(at 30.48 119.38 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2b1bd43-9f7b-47cd-afbe-9dff9a33fd7d")
+	)
+	(label "TIM3-CH2"
+		(at 48.26 160.02 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa82c525-9d70-41ba-9944-258731bfc9b5")
+	)
+	(label "TIM3-CH3"
+		(at 144.78 63.5 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5b0a236-0352-4cd8-bfeb-263c23560fc6")
+	)
+	(label "TIM3-CH1"
+		(at 30.48 63.5 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "bec4afd9-7f9b-46df-a73c-a57b650f8e39")
+	)
+	(label "TIM3-CH2"
+		(at 86.36 63.5 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "bff2dcff-707d-488b-8466-9398520a23e0")
+	)
+	(label "TIM4-CH4"
+		(at 48.26 175.26 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3be1260-becf-4b40-8be1-5d1efc6f4d18")
+	)
+	(label "TIM3-CH1"
+		(at 48.26 157.48 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "d46cd5a7-241c-4cbf-9223-513f3c0e9a54")
+	)
+	(label "TIM3-CH4"
+		(at 48.26 165.1 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "f616457a-efe5-4732-969b-6921a7883a99")
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:CREE-XLAMP")
+		(at 119.38 50.8 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "069c7b62-d967-4e90-ae50-fca2b7a48541")
+		(property "Reference" "LED1"
+			(at 122.936 55.372 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1W RGBW"
+			(at 125.095 55.372 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:CREE-XLAMP"
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNR" "XMLCTW-A0-0000-00C2AAAB1"
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "917f6525-4603-4950-865a-41f75a4e389a")
+		)
+		(pin "5"
+			(uuid "0470a3b2-6717-4c0e-b7ec-c4b62bc0f89a")
+		)
+		(pin "3"
+			(uuid "10426bd8-c569-4c85-ba66-1fa995809b74")
+		)
+		(pin "7"
+			(uuid "f05fb313-2034-42f5-a685-714e2c5e18e4")
+		)
+		(pin "8"
+			(uuid "2dfdca75-a8ce-4ab8-b86e-854559ffa1ad")
+		)
+		(pin "1"
+			(uuid "d513a63e-5062-4d3c-89a4-670098454eb5")
+		)
+		(pin "2"
+			(uuid "0ee30ac2-9ea5-4af0-a06b-24abe0e945b3")
+		)
+		(pin "4"
+			(uuid "50a3c5ee-5f3c-4082-8f32-da52c38298b1")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "LED1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:BCR420_1")
+		(at 106.68 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "189c0af5-da42-4fa0-a277-b07d04a8a30f")
+		(property "Reference" "IC3"
+			(at 99.06 57.912 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BCR421UE"
+			(at 99.06 71.12 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:SOT26"
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0f09997-bb7d-4cbd-a983-2a9afb7f78a9")
+		)
+		(pin "4"
+			(uuid "7d5516b8-89cf-4360-8067-26918190d525")
+		)
+		(pin "3"
+			(uuid "c8ef27be-d963-4160-989a-9fdb1e9660cb")
+		)
+		(pin "5"
+			(uuid "6c371796-64a1-47c9-ad7f-65529d875954")
+		)
+		(pin "2"
+			(uuid "a6fb4e96-8f02-4d04-b865-c65c5f551a51")
+		)
+		(pin "6"
+			(uuid "cfea8521-10b0-4b60-8d00-1078a5bccaad")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "IC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:GND")
+		(at 177.8 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b5703b4-d901-4421-9e64-f7e8f0817e52")
+		(property "Reference" "#GND7"
+			(at 177.8 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 142.24 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74b03880-f110-4d47-b9a8-9d4329773562")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "#GND7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:+5V")
+		(at 119.38 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1dbb1ea6-fa99-4603-af8a-7fb8e3481eb5")
+		(property "Reference" "#P+5"
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 116.84 101.6 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e5ded89-d6ce-4411-95a3-017204e36e3d")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "#P+5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:R-EU_R0805")
+		(at 243.84 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "230e9502-c570-4918-a210-0faeeb84b408")
+		(property "Reference" "R8"
+			(at 242.3414 130.81 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4R7"
+			(at 247.142 130.81 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:R0805"
+			(at 243.84 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54f01b98-a76d-4b6a-b6fc-825a59738548")
+		)
+		(pin "2"
+			(uuid "7d06d6b5-117d-429b-9cc0-34b4f0d81e5c")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:BCR420_1")
+		(at 165.1 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24ccd641-1968-49d5-86a1-37fd7155dc8a")
+		(property "Reference" "IC5"
+			(at 157.48 57.912 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BCR421UE"
+			(at 157.48 71.12 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:SOT26"
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d585a1d5-c37a-453b-80e5-1bc361a005fc")
+		)
+		(pin "1"
+			(uuid "fe969a4a-c082-4909-9166-e5c0897c0df9")
+		)
+		(pin "2"
+			(uuid "bbccd6eb-abd0-4206-bbdf-3cede90a52b8")
+		)
+		(pin "5"
+			(uuid "b5bd0fa3-acc6-4f7e-bfcd-779aa8c20288")
+		)
+		(pin "6"
+			(uuid "ffa8e908-ddeb-4e40-9bd0-c534a91c2c45")
+		)
+		(pin "4"
+			(uuid "f89c8247-8689-4247-8afc-30688b665f90")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "IC5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:BCR420_1")
+		(at 50.8 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33a2a13b-a829-4d2d-902f-f1921b146794")
+		(property "Reference" "IC1"
+			(at 43.18 57.912 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BCR421UE"
+			(at 43.18 71.12 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:SOT26"
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac918789-1ad7-458e-a5b7-6f5dd146a2a8")
+		)
+		(pin "4"
+			(uuid "a1c1044f-49e0-48e0-b649-e233e26da1f1")
+		)
+		(pin "3"
+			(uuid "201b57da-bcfa-426c-ba11-2ecc31af257b")
+		)
+		(pin "1"
+			(uuid "3ee36264-c3e8-43de-b270-6324c656b37e")
+		)
+		(pin "5"
+			(uuid "01ba9754-869b-47ce-899f-31b2c8662b13")
+		)
+		(pin "6"
+			(uuid "52384a82-bccd-4152-8309-cca72bab188c")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:+5V")
+		(at 63.5 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43df19a2-c486-43f5-a4df-5dcb3dd1ad2f")
+		(property "Reference" "#P+2"
+			(at 63.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 60.96 101.6 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6aada2a-7b82-4af4-9f18-6c6ff2b3cfcf")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "#P+2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:+5V")
+		(at 177.8 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49cdba6c-c065-4c6d-a55c-3d4f9909d61c")
+		(property "Reference" "#P+6"
+			(at 177.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 175.26 45.72 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4ac2244-852e-45b5-8654-375dd6e36b05")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "#P+6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:TE-FPC-1MM-10H")
+		(at 66.04 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4afb54d2-07ad-4dc0-b5ae-af7f215534aa")
+		(property "Reference" "X1"
+			(at 71.628 178.562 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TE-FPC-1MM-10H"
+			(at 63.5 181.102 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:TE-1-84952-0"
+			(at 66.04 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "f4c4e8f3-9c19-45fc-9a53-d44eb14afe68")
+		)
+		(pin "3"
+			(uuid "65661fda-36fb-4672-9391-6c860582d3c1")
+		)
+		(pin "10"
+			(uuid "1874b940-2821-4ba1-811d-cb114e797fe8")
+		)
+		(pin "5"
+			(uuid "cd54dadd-138e-4f56-8bd2-29ec823a27a9")
+		)
+		(pin "7"
+			(uuid "f1a761e1-8a73-4477-8dec-d1e0855ac741")
+		)
+		(pin "4"
+			(uuid "18f8cb0f-c30b-4bef-bed8-5dbdf43b03b5")
+		)
+		(pin "2"
+			(uuid "dc0367ed-7b8a-4a9d-a48e-26a53a04b337")
+		)
+		(pin "1"
+			(uuid "8a175e61-5118-47a0-8716-379de4b18b5c")
+		)
+		(pin "6"
+			(uuid "f35ff16b-9064-4761-a3a1-415e7fc9897a")
+		)
+		(pin "9"
+			(uuid "d046ed7b-aeaa-4c3b-914d-043596f93b33")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:BCR420_1")
+		(at 226.06 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b42bfb1-2c91-4067-9fbc-a92063ba7a46")
+		(property "Reference" "IC7"
+			(at 218.44 57.912 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BCR421UE"
+			(at 218.44 71.12 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:SOT26"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "3380b230-d338-4ea5-80a0-4112c4f0ce96")
+		)
+		(pin "4"
+			(uuid "e56062b1-d825-4171-91f4-7513e534bc45")
+		)
+		(pin "3"
+			(uuid "ed3e0174-fcf2-4667-b277-ec870756220b")
+		)
+		(pin "5"
+			(uuid "023dda27-7725-4b5a-ad0e-340fdf4eb42a")
+		)
+		(pin "2"
+			(uuid "c6a73147-7758-42a0-9626-03b074b9ebd6")
+		)
+		(pin "1"
+			(uuid "1ee0c58f-7401-4348-839a-c6021ff92122")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "IC7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:R-EU_R0805")
+		(at 124.46 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cab6fcd-ecbd-44cc-a3ce-1f8a1ffa2345")
+		(property "Reference" "R4"
+			(at 122.9614 130.81 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4R7"
+			(at 127.762 130.81 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:R0805"
+			(at 124.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00077c51-234f-4632-963d-2d1d6c10b010")
+		)
+		(pin "2"
+			(uuid "f503de0e-5e2c-40e0-b108-07ca22d833f8")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:GND")
+		(at 119.38 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d61dc17-f3ad-49f3-af4a-f3de08dcb4ee")
+		(property "Reference" "#GND4"
+			(at 119.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 86.36 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "117aa191-cc16-4c75-86b8-866b4de33a49")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "#GND4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:GND")
+		(at 238.76 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f5e91a9-3696-4523-bf05-e7a0f5506551")
+		(property "Reference" "#GND8"
+			(at 238.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.22 86.36 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9595984f-cfcd-4a51-97ce-590393432e30")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "#GND8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:BCR420_1")
+		(at 226.06 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5206eb34-7895-4514-ab72-3ad550a2d212")
+		(property "Reference" "IC8"
+			(at 218.44 113.792 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BCR421UE"
+			(at 218.44 127 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:SOT26"
+			(at 226.06 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "342e100e-235a-4895-89f1-6ee7ccb97fa5")
+		)
+		(pin "5"
+			(uuid "c37ce624-ce2b-46e9-9f4f-c632e915abe7")
+		)
+		(pin "1"
+			(uuid "733a444b-b751-4954-be3a-fffb0add7725")
+		)
+		(pin "2"
+			(uuid "b3f5e776-559e-400a-b97d-131389515af5")
+		)
+		(pin "3"
+			(uuid "03faffb0-c4c7-4d86-8934-78959116a4e3")
+		)
+		(pin "4"
+			(uuid "feafa762-4903-4476-bd7a-38f7e89931ef")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "IC8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:GND")
+		(at 63.5 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "540d80f8-dbfd-447e-b0f9-d2386e1b41a2")
+		(property "Reference" "#GND1"
+			(at 63.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 86.36 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cb42ba9-4329-4111-9a93-0e4bf004a038")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "#GND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:+5V")
+		(at 238.76 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cf95117-f102-4c20-99bc-b51e6ae2f37d")
+		(property "Reference" "#P+9"
+			(at 238.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 236.22 101.6 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0adb078e-f8c6-4db7-8a05-089f74dcc9f8")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "#P+9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:+5V")
+		(at 238.76 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f53c6c4-257e-4f3d-8e3e-19957f191cbb")
+		(property "Reference" "#P+8"
+			(at 238.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 236.22 45.72 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "131b1d76-d6e6-40dc-9283-b2d4df9c3639")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "#P+8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:CREE-XLAMP")
+		(at 177.8 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b2e4c6a-3754-46cb-b50d-40915e9d4090")
+		(property "Reference" "LED1"
+			(at 181.356 55.372 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1W RGBW"
+			(at 183.515 55.372 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:CREE-XLAMP"
+			(at 177.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNR" "XMLCTW-A0-0000-00C2AAAB1"
+			(at 177.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "0f415135-a878-42c9-98f4-7a61e15d6c61")
+		)
+		(pin "2"
+			(uuid "544c5468-1329-421c-9c76-87202624454f")
+		)
+		(pin "1"
+			(uuid "d19acf4c-f7ec-498e-a1a5-f8c81850262e")
+		)
+		(pin "3"
+			(uuid "4c23c81f-e65a-4c26-bde2-82c4bdcbcd44")
+		)
+		(pin "4"
+			(uuid "3dc3d02a-5726-4b93-983a-6288f407e51d")
+		)
+		(pin "6"
+			(uuid "56df00c2-5375-47c8-812d-165c77b8c7ec")
+		)
+		(pin "8"
+			(uuid "005c7b2c-806e-428c-8489-6af26ae35319")
+		)
+		(pin "5"
+			(uuid "6ede858f-f8b4-45ab-8255-f4ff4ada1adc")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:TE-FPC-1MM-10H")
+		(at 66.04 160.02 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cd793a0-eaf3-4397-92e8-8e796b0d0a98")
+		(property "Reference" "X1"
+			(at 71.628 160.782 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TE-FPC-1MM-10H"
+			(at 63.5 163.322 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:TE-1-84952-0"
+			(at 66.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b70d6e7-fc06-46cd-93c5-6ed21a009415")
+		)
+		(pin "2"
+			(uuid "73778d26-3648-4bb4-bf32-9a4a4732b6d7")
+		)
+		(pin "8"
+			(uuid "539088fb-c194-4ed5-a5e1-1b77e4e81d11")
+		)
+		(pin "5"
+			(uuid "447c4175-cb04-4837-a498-d9131fec5aec")
+		)
+		(pin "9"
+			(uuid "26bf9784-bcd9-42bf-82f7-019909e362a4")
+		)
+		(pin "6"
+			(uuid "1ff77f0e-a3bf-468a-8add-9d23c93fddcf")
+		)
+		(pin "3"
+			(uuid "a127eccb-1fef-4d4f-a92e-9a71dee41a45")
+		)
+		(pin "4"
+			(uuid "89351661-79ee-4841-b136-2fa23d2cba36")
+		)
+		(pin "7"
+			(uuid "8ff9fcc3-f172-4b5c-8cb2-1fcb789a5030")
+		)
+		(pin "10"
+			(uuid "a182e64b-3c4e-4ead-8a3a-7fd18aae8fb9")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "X1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:GND")
+		(at 119.38 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70ad3258-a22c-43c6-a8e2-f2c45d319c5f")
+		(property "Reference" "#GND5"
+			(at 119.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 142.24 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fec788b-e23b-40ea-8858-0d1c9d96eb25")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "#GND5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:TE-FPC-1MM-10H")
+		(at 66.04 154.94 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a7c014e-0a99-4cbf-bf4d-556fe0ed24c4")
+		(property "Reference" "X1"
+			(at 71.628 155.702 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TE-FPC-1MM-10H"
+			(at 63.5 158.242 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:TE-1-84952-0"
+			(at 66.04 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "50de7d2b-0565-49e3-bded-52823a24fc83")
+		)
+		(pin "2"
+			(uuid "3fe97069-87a1-475c-ab8f-ae51a6b6292e")
+		)
+		(pin "9"
+			(uuid "c432c256-bf6b-4fb6-a7a1-5d71a1c4a784")
+		)
+		(pin "7"
+			(uuid "4c5a0422-ba2a-4f1d-ab63-9ac240abfd52")
+		)
+		(pin "6"
+			(uuid "1b9c5403-8a13-4ea7-9632-5eff91871c63")
+		)
+		(pin "1"
+			(uuid "3ba6dd0b-44e6-4036-8ed3-2f4db399c83e")
+		)
+		(pin "4"
+			(uuid "5c6dc037-3a22-4154-8daf-5b530c3b248b")
+		)
+		(pin "8"
+			(uuid "9f0cd039-1d86-49c1-9911-67f2eb2308d1")
+		)
+		(pin "10"
+			(uuid "bd8511d4-dc17-480b-a9f5-44cada8ee28e")
+		)
+		(pin "5"
+			(uuid "8825e3fc-ddc3-4f24-8444-e6a60982adb0")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "X1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:GND")
+		(at 238.76 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7aafc70f-7b75-43c1-8cae-ee0b9d1d62f4")
+		(property "Reference" "#GND9"
+			(at 238.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.22 142.24 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3043b84-11c3-4d13-b579-790df4129ea3")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "#GND9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:TE-FPC-1MM-10H")
+		(at 66.04 162.56 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b30f00b-42bb-450e-ba96-8ba75deeda06")
+		(property "Reference" "X1"
+			(at 71.628 163.322 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TE-FPC-1MM-10H"
+			(at 63.5 165.862 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:TE-1-84952-0"
+			(at 66.04 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "42c2fcc8-f5ae-4906-8b1c-20727398b726")
+		)
+		(pin "3"
+			(uuid "0cd6ac7b-10aa-42c6-9963-229a5367fe4a")
+		)
+		(pin "1"
+			(uuid "1c5fb2fe-3bbb-4ee6-a1aa-5a454fa002f6")
+		)
+		(pin "2"
+			(uuid "dc80db77-e5c1-44cf-946e-3860a8f517de")
+		)
+		(pin "4"
+			(uuid "0bd6eace-5421-4649-9142-e44aabf201fd")
+		)
+		(pin "5"
+			(uuid "2cdf6fea-5e3c-44bf-bf1e-05f0a5320f64")
+		)
+		(pin "6"
+			(uuid "44eefbae-aae7-4a9d-9321-49993cac449c")
+		)
+		(pin "7"
+			(uuid "7ddac192-9257-495d-a165-9ae5ba4ac206")
+		)
+		(pin "10"
+			(uuid "23763a61-bd1e-4620-be88-2bf8432407d1")
+		)
+		(pin "9"
+			(uuid "b15e1d21-67e3-4765-a996-1d9bf4fc1d31")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "X1")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:TE-FPC-1MM-10H")
+		(at 66.04 170.18 0)
+		(unit 8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b890593-ba3b-49e3-95f4-94baed9b6f15")
+		(property "Reference" "X1"
+			(at 71.628 170.942 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TE-FPC-1MM-10H"
+			(at 63.5 173.482 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:TE-1-84952-0"
+			(at 66.04 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "44538930-32e9-4cb7-9db6-898c8d370b8b")
+		)
+		(pin "1"
+			(uuid "3acb3dee-3d3e-444b-bdf2-b6e83cdc24b0")
+		)
+		(pin "10"
+			(uuid "34895807-1e7d-40e2-b963-81d227c68969")
+		)
+		(pin "2"
+			(uuid "3323b566-efee-43b1-bdb5-d42473040e43")
+		)
+		(pin "4"
+			(uuid "378d03bf-b71d-4203-a512-5dae407b0ac1")
+		)
+		(pin "5"
+			(uuid "25012e1b-44ea-4d18-86aa-b935de921d1a")
+		)
+		(pin "6"
+			(uuid "820854c6-64a4-4c90-bc0e-b2b17828a091")
+		)
+		(pin "7"
+			(uuid "848395f2-2b2f-45eb-a153-feb97aa85c28")
+		)
+		(pin "8"
+			(uuid "f32e8ade-481b-41f4-b1fe-7eec172655a0")
+		)
+		(pin "9"
+			(uuid "10800f33-8adf-487a-8620-712fc307d9dc")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "X1")
+					(unit 8)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:R-EU_R0805")
+		(at 68.58 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cffd12e-8cea-4be0-baeb-4a45688bc8ff")
+		(property "Reference" "R2"
+			(at 67.0814 130.81 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4R7"
+			(at 71.882 130.81 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:R0805"
+			(at 68.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e4918de9-3892-40dd-8f8c-6548d661cb92")
+		)
+		(pin "1"
+			(uuid "b5a66311-4587-4cf1-81a1-656f1255f5c4")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:CREE-XLAMP")
+		(at 63.5 50.8 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91c09eaf-3db6-4aef-be15-821fdd6a743f")
+		(property "Reference" "LED1"
+			(at 67.056 55.372 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1W RGBW"
+			(at 69.215 55.372 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:CREE-XLAMP"
+			(at 63.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNR" "XMLCTW-A0-0000-00C2AAAB1"
+			(at 63.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5e2652ff-3558-4f57-9365-a4b3ce665841")
+		)
+		(pin "6"
+			(uuid "fd607402-9da1-4ff4-aa5f-c144c5030289")
+		)
+		(pin "2"
+			(uuid "dd18eafb-0171-4b7c-9ebb-f7cd06e14e01")
+		)
+		(pin "1"
+			(uuid "929d1aaa-552a-425e-99a2-27f03070a9f8")
+		)
+		(pin "7"
+			(uuid "34fa52e4-2f28-4aee-bd94-865c99bfb124")
+		)
+		(pin "4"
+			(uuid "bb2a432d-d635-4e7d-ae3f-70ffaf64cec5")
+		)
+		(pin "8"
+			(uuid "ba80c33c-460a-4492-96c7-adf66256abf9")
+		)
+		(pin "5"
+			(uuid "f15cf076-960f-4ac7-a007-82545ec3a9de")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "LED1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:+5V")
+		(at 63.5 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93b192b5-8580-4ad3-946c-4c075ac19e27")
+		(property "Reference" "#P+1"
+			(at 63.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 60.96 45.72 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "780596b4-f812-409b-bae5-3ec2ace9cde7")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "#P+1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:CREE-XLAMP")
+		(at 119.38 106.68 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9aebd5ba-19bc-49b0-8bf1-c18fdda375a1")
+		(property "Reference" "LED2"
+			(at 122.936 111.252 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1W RGBW"
+			(at 125.095 111.252 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:CREE-XLAMP"
+			(at 119.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNR" "XMLCTW-A0-0000-00C2AAAB1"
+			(at 119.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "d1a49c5a-7443-4650-82df-287f09baaa10")
+		)
+		(pin "8"
+			(uuid "dbf32312-d172-4255-b53a-deb1540abfa9")
+		)
+		(pin "3"
+			(uuid "aa6b77f9-d253-46b8-b445-2d7dad03d84d")
+		)
+		(pin "6"
+			(uuid "d3ea1864-6953-4590-8db0-77a6202dae60")
+		)
+		(pin "2"
+			(uuid "914c1706-fcae-434a-a72c-9dc114eeec07")
+		)
+		(pin "1"
+			(uuid "b7da0d83-f995-4cf7-8293-bb6a16b8b6f0")
+		)
+		(pin "5"
+			(uuid "15330658-bff8-4f5b-9e0c-b9912c245392")
+		)
+		(pin "4"
+			(uuid "c2eeccdc-92df-441a-8e56-79ee7ba06843")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "LED2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:CREE-XLAMP")
+		(at 177.8 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b5b123a-06af-4b68-8365-b447a2292858")
+		(property "Reference" "LED2"
+			(at 181.356 111.252 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1W RGBW"
+			(at 183.515 111.252 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:CREE-XLAMP"
+			(at 177.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNR" "XMLCTW-A0-0000-00C2AAAB1"
+			(at 177.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "60deb76f-ab87-49c2-b344-3bd675eb2f62")
+		)
+		(pin "4"
+			(uuid "fd9b6bc4-0e93-46f8-b96e-60b9b6abe75f")
+		)
+		(pin "3"
+			(uuid "b1130796-76ba-44ec-bf54-d6a007a4430f")
+		)
+		(pin "2"
+			(uuid "fb049a4c-e099-4b7e-8797-04cd2ecc7fcc")
+		)
+		(pin "7"
+			(uuid "5a5a76ff-9200-4fb5-94bb-519ec79ad640")
+		)
+		(pin "6"
+			(uuid "16627afa-d53c-467f-aed4-4a79f9304f64")
+		)
+		(pin "1"
+			(uuid "7e36f707-4369-48fa-9ce1-4b552b91c758")
+		)
+		(pin "5"
+			(uuid "33caec2a-0d43-42c2-9c63-1684471c7700")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:R-EU_R0805")
+		(at 124.46 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9db91093-4ba4-431e-8a64-8d9bf1311e88")
+		(property "Reference" "R3"
+			(at 122.9614 74.93 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4R7"
+			(at 127.762 74.93 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:R0805"
+			(at 124.46 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f20349d5-683f-415f-a9bc-6815bb94e5f5")
+		)
+		(pin "1"
+			(uuid "6b948802-4f0c-4536-b551-2de2ca3d2c0c")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:TE-FPC-1MM-10H")
+		(at 66.04 165.1 0)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1365fb1-e181-43f6-9021-e8e7b9a47482")
+		(property "Reference" "X1"
+			(at 71.628 165.862 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TE-FPC-1MM-10H"
+			(at 63.5 168.402 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:TE-1-84952-0"
+			(at 66.04 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "494a3c47-591a-4fe9-adf6-04d6e7c03e11")
+		)
+		(pin "2"
+			(uuid "ccf2f052-baf3-46b7-b688-e62f071f0eed")
+		)
+		(pin "3"
+			(uuid "44f4f355-fdc4-4df0-a0c3-63b1dd7fb033")
+		)
+		(pin "1"
+			(uuid "b7f01789-12b6-43b9-bd60-e2a03f5b6a59")
+		)
+		(pin "7"
+			(uuid "340e31b9-bc76-4d03-a24c-b885579ebd0d")
+		)
+		(pin "8"
+			(uuid "bb4dc64c-83ed-4b4f-ae12-243513f467aa")
+		)
+		(pin "5"
+			(uuid "700c601b-1651-47ad-960d-d482bda44e83")
+		)
+		(pin "9"
+			(uuid "be1da259-717f-436c-ba03-fa8525a31e44")
+		)
+		(pin "4"
+			(uuid "e1e8c726-e9da-46c6-a366-8214bcd1578a")
+		)
+		(pin "6"
+			(uuid "6c2f293c-d8b0-4708-95ef-b699000f83a3")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "X1")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:R-EU_R0805")
+		(at 243.84 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4668305-49ac-446e-8c17-ab28bddb93df")
+		(property "Reference" "R7"
+			(at 242.3414 74.93 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4R7"
+			(at 247.142 74.93 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:R0805"
+			(at 243.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88b15ebd-c984-43a9-bacc-0c9f07b79c8f")
+		)
+		(pin "2"
+			(uuid "ef623af5-a928-4e51-ab04-cb08af61a8e0")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:+5V")
+		(at 119.38 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa51da54-2274-42d7-aed8-6d967a277604")
+		(property "Reference" "#P+4"
+			(at 119.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 116.84 45.72 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d3233eb-73e5-4a76-ba31-c59875418c35")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "#P+4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:TE-FPC-1MM-10H")
+		(at 66.04 167.64 0)
+		(unit 7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4b82241-a2c4-4433-99c8-d81dec5e8c37")
+		(property "Reference" "X1"
+			(at 71.628 168.402 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TE-FPC-1MM-10H"
+			(at 63.5 170.942 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:TE-1-84952-0"
+			(at 66.04 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "28e685cd-44b8-469c-b439-84619cb4387b")
+		)
+		(pin "1"
+			(uuid "d1cba825-8c15-45bc-9ae8-3a48abf9d120")
+		)
+		(pin "5"
+			(uuid "87c3df94-0847-44c9-93e7-f9e70003b9c0")
+		)
+		(pin "6"
+			(uuid "a872f335-a43c-4f12-8202-4fa06b1bf3db")
+		)
+		(pin "2"
+			(uuid "b39c2f5f-3211-49ad-950a-1577eaef5258")
+		)
+		(pin "3"
+			(uuid "277be479-5397-492a-998b-b9fbedd95121")
+		)
+		(pin "7"
+			(uuid "424f59d0-fbb7-4c18-b777-26a50a7095b0")
+		)
+		(pin "9"
+			(uuid "7a4c6f1e-6d0c-46ab-bc7d-5592be5223b0")
+		)
+		(pin "10"
+			(uuid "4a8761a2-8acd-4ee1-8e58-ddac856014b1")
+		)
+		(pin "8"
+			(uuid "27213772-0eef-42e6-8a34-f99c4d064925")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "X1")
+					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:CREE-XLAMP")
+		(at 238.76 106.68 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6dd0800-c26c-4c12-bf05-1b25ee99f69e")
+		(property "Reference" "LED2"
+			(at 242.316 111.252 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1W RGBW"
+			(at 244.475 111.252 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:CREE-XLAMP"
+			(at 238.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNR" "XMLCTW-A0-0000-00C2AAAB1"
+			(at 238.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "54ee002d-2fb2-45bc-84ea-b7d479c6bc5c")
+		)
+		(pin "6"
+			(uuid "9a7a587a-e5f5-4e3e-8772-86495cd3e330")
+		)
+		(pin "7"
+			(uuid "310a0e92-9b6a-4be5-a7ec-7ca7ba4d08b7")
+		)
+		(pin "5"
+			(uuid "4671383c-d77b-47f2-b34c-d2dfb07692d8")
+		)
+		(pin "3"
+			(uuid "2f91a9cb-a331-4bf6-9c2f-5f04bc987e0f")
+		)
+		(pin "1"
+			(uuid "469d9d62-1822-4f87-a717-3067f3ec70a2")
+		)
+		(pin "8"
+			(uuid "40289297-81fc-4e3e-9474-bb87f33b2e84")
+		)
+		(pin "2"
+			(uuid "074ffa8c-3ab3-439c-afd3-f01f8fc2c449")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "LED2")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:BCR420_1")
+		(at 106.68 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7e6d2e2-9b01-48c7-ac21-6093e1f8c3ed")
+		(property "Reference" "IC4"
+			(at 99.06 113.792 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BCR421UE"
+			(at 99.06 127 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:SOT26"
+			(at 106.68 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3c796a49-c6b1-44c1-bd5d-2308338d642d")
+		)
+		(pin "1"
+			(uuid "7da88303-813a-4881-b74b-67190794f5b7")
+		)
+		(pin "2"
+			(uuid "7feda78e-7a03-4fbe-ac91-235819634060")
+		)
+		(pin "3"
+			(uuid "1ba0446e-b023-4ee3-aae4-0c297c20f704")
+		)
+		(pin "6"
+			(uuid "a4ff5236-421f-4750-ab53-4de2bba47e20")
+		)
+		(pin "5"
+			(uuid "cbd0b909-137a-451e-93a7-f9de8d93e601")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "IC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:TE-FPC-1MM-10H")
+		(at 66.04 157.48 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b98380d5-89d9-4b77-a7d4-7160d0a30a47")
+		(property "Reference" "X1"
+			(at 71.628 158.242 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TE-FPC-1MM-10H"
+			(at 63.5 160.782 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:TE-1-84952-0"
+			(at 66.04 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "ab8c9569-c5b6-4598-8c6e-cde6f798c36d")
+		)
+		(pin "6"
+			(uuid "3b742df3-97ff-4319-b6e8-872a6560e6e4")
+		)
+		(pin "9"
+			(uuid "684b8dd6-0ec3-4d87-ae3e-e67ce4d1eb5f")
+		)
+		(pin "7"
+			(uuid "2803ea51-1993-41b6-87a3-556dd3fd2a05")
+		)
+		(pin "1"
+			(uuid "3de55626-4744-4085-92dd-9ab94cad25ae")
+		)
+		(pin "2"
+			(uuid "b33b7258-d96e-406e-9b0b-dc06828010f3")
+		)
+		(pin "5"
+			(uuid "efb90dc7-4b6e-415a-8c95-0f94662a3c9c")
+		)
+		(pin "8"
+			(uuid "c4b8fcb6-6eff-4d30-84b8-d4cb73531301")
+		)
+		(pin "4"
+			(uuid "284ba537-1b07-4ef6-b730-3de3a10e108a")
+		)
+		(pin "3"
+			(uuid "46dbe62a-a26b-482b-82b5-580d383ecfc7")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "X1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:+5V")
+		(at 63.5 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb11ad36-927d-41bf-bca7-005c3c3de33b")
+		(property "Reference" "#P+3"
+			(at 63.5 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 60.96 154.94 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65412382-f4e9-4349-ae4f-d3576de7a11f")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "#P+3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:BCR420_1")
+		(at 165.1 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1922625-fb88-4b49-88de-52200513b7b7")
+		(property "Reference" "IC6"
+			(at 157.48 113.792 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BCR421UE"
+			(at 157.48 127 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:SOT26"
+			(at 165.1 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef8f6a9b-6b6c-43de-b487-37c679b22634")
+		)
+		(pin "2"
+			(uuid "920e4ebb-30a2-4c3a-9df4-d22403973f5d")
+		)
+		(pin "4"
+			(uuid "09e1136d-e0c8-480a-b81b-d590bbdd6117")
+		)
+		(pin "5"
+			(uuid "2b7f851a-2afb-4536-8ec6-ebd5d12d3079")
+		)
+		(pin "3"
+			(uuid "6a3416b6-bcae-43d8-b105-46f422a016e2")
+		)
+		(pin "6"
+			(uuid "118047ac-1860-4751-b5c0-49affdbcdcba")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "IC6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:GND")
+		(at 177.8 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c45406ee-1cc8-4897-a92d-f2d8602920e8")
+		(property "Reference" "#GND6"
+			(at 177.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 86.36 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16b417fc-fdd0-4ede-93af-d8a745158757")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "#GND6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:CREE-XLAMP")
+		(at 63.5 106.68 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5fd9f38-6af3-4fa4-b942-9a8e6c78f9cd")
+		(property "Reference" "LED2"
+			(at 67.056 111.252 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1W RGBW"
+			(at 69.215 111.252 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:CREE-XLAMP"
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNR" "XMLCTW-A0-0000-00C2AAAB1"
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "a91f7554-c224-46dc-9ef1-c799729dc913")
+		)
+		(pin "1"
+			(uuid "05af9e60-04b9-44f8-b0be-2f1d103f2e9e")
+		)
+		(pin "7"
+			(uuid "69034d08-32db-4056-943a-02b6766ebf12")
+		)
+		(pin "2"
+			(uuid "ad699eb3-a22c-4447-98fa-70fa41eeeedf")
+		)
+		(pin "4"
+			(uuid "c160ad6c-1ab6-4fa3-a790-9ccaef914ff1")
+		)
+		(pin "3"
+			(uuid "dcb62316-7f1a-4d8b-aece-277f823b40c0")
+		)
+		(pin "6"
+			(uuid "f49002b5-6496-4e8c-9dcf-882a9f4912a2")
+		)
+		(pin "5"
+			(uuid "d2d357d8-8a3b-4c0f-9f12-8ac39b32d974")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "LED2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:BCR420_1")
+		(at 50.8 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd3f99a5-6368-463d-8cce-88eb553ef64d")
+		(property "Reference" "IC2"
+			(at 43.18 113.792 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BCR421UE"
+			(at 43.18 127 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:SOT26"
+			(at 50.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "656dd0af-5db3-4477-9ffe-d2d5e4eaf3f9")
+		)
+		(pin "6"
+			(uuid "45aeae71-1558-4b10-92bb-7837e6707551")
+		)
+		(pin "1"
+			(uuid "170b6032-9ed7-4325-bf81-eda09dccfda7")
+		)
+		(pin "2"
+			(uuid "b19ad5ed-01b7-4853-815f-10083baa4d3f")
+		)
+		(pin "4"
+			(uuid "9aeb53f6-05af-47a3-b9cd-2a87c135cfed")
+		)
+		(pin "3"
+			(uuid "22f93907-dbf7-4724-9d4f-34d2ed61495e")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:CREE-XLAMP")
+		(at 238.76 50.8 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d626c6e5-06ba-445f-ae7d-0cd1cac0aa4d")
+		(property "Reference" "LED1"
+			(at 242.316 55.372 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1W RGBW"
+			(at 244.475 55.372 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:CREE-XLAMP"
+			(at 238.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNR" "XMLCTW-A0-0000-00C2AAAB1"
+			(at 238.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "dc660e39-240e-4ebf-8591-f0112ee4c45a")
+		)
+		(pin "3"
+			(uuid "624f7d20-8ac8-48c0-a50a-e83f04a9a311")
+		)
+		(pin "2"
+			(uuid "6da2e56f-3a9f-4572-873d-4d57ab1ba240")
+		)
+		(pin "6"
+			(uuid "778e0260-0ad0-4a87-b7ef-cd3e7699f1f5")
+		)
+		(pin "7"
+			(uuid "132ea765-98ba-413a-957b-acd1ce4c1821")
+		)
+		(pin "1"
+			(uuid "8efaa5a1-7535-4b09-9fd9-026f04439393")
+		)
+		(pin "4"
+			(uuid "fc54f4b6-b2ba-4e67-af25-15cea3cc32db")
+		)
+		(pin "5"
+			(uuid "a15c2d6c-6ebe-45fb-88b8-aec7045df495")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "LED1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:GND")
+		(at 63.5 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d89010e2-be59-4a76-a1f1-41bc8ea6f384")
+		(property "Reference" "#GND3"
+			(at 63.5 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 185.42 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7724f4b-08de-4416-b54c-bf7f6eae712e")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "#GND3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:TE-FPC-1MM-10H")
+		(at 66.04 172.72 0)
+		(unit 9)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8dafc5e-a1d0-4620-8ff8-01615fca6f05")
+		(property "Reference" "X1"
+			(at 71.628 173.482 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TE-FPC-1MM-10H"
+			(at 63.5 176.022 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:TE-1-84952-0"
+			(at 66.04 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "861b4ef7-fea2-4c95-aa8d-071bb46e83dd")
+		)
+		(pin "7"
+			(uuid "a9cbfa26-1340-46e1-895c-ee8790ac1c56")
+		)
+		(pin "10"
+			(uuid "72ed6819-5402-4b9a-8ea4-4ad89b961712")
+		)
+		(pin "5"
+			(uuid "6dafd711-3ccf-4896-8ee0-60c3b687eda1")
+		)
+		(pin "2"
+			(uuid "bd3da1b7-570e-449f-b226-c1512ee08772")
+		)
+		(pin "4"
+			(uuid "95e88f3e-0092-4ffd-8180-65d0f0e6dd27")
+		)
+		(pin "3"
+			(uuid "7fb7c02e-fc11-4d2b-b9a9-0cea6e209344")
+		)
+		(pin "9"
+			(uuid "af846897-a142-40f4-951f-6070df5e7f20")
+		)
+		(pin "1"
+			(uuid "39f05b1e-ffad-4569-8111-28dc92759681")
+		)
+		(pin "6"
+			(uuid "1f4873d1-3a64-4c3f-8ad3-1d2e6161bad0")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "X1")
+					(unit 9)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:TE-FPC-1MM-10H")
+		(at 66.04 175.26 0)
+		(unit 10)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d93402ef-b927-4e77-9bc6-e28cc3bc7bf2")
+		(property "Reference" "X1"
+			(at 71.628 176.022 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TE-FPC-1MM-10H"
+			(at 63.5 178.562 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:TE-1-84952-0"
+			(at 66.04 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "c1b2ca88-71ad-4b02-a059-7115f54df289")
+		)
+		(pin "5"
+			(uuid "f0a7aa6d-63d4-4c41-bc67-78afa28d39fb")
+		)
+		(pin "6"
+			(uuid "d46700cf-7840-4956-ad76-f9e3d137a993")
+		)
+		(pin "8"
+			(uuid "59f4187a-8e20-4a5d-83c2-ad1a1abda2e9")
+		)
+		(pin "3"
+			(uuid "e523de6b-9c6a-41cb-b2f2-aa7133efd748")
+		)
+		(pin "1"
+			(uuid "b393dd2c-08ff-4431-ba4c-9f06fd62efd0")
+		)
+		(pin "7"
+			(uuid "7ee59320-6fcb-4999-96f5-ea5ccd696fab")
+		)
+		(pin "4"
+			(uuid "1e15ddf7-3378-4639-8e3d-4b92ad3d0c7f")
+		)
+		(pin "2"
+			(uuid "7fd4db08-48be-4869-91d8-c1dd17c26f95")
+		)
+		(pin "9"
+			(uuid "391bc2e7-9a37-4fb8-8819-4dd38fb14322")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "X1")
+					(unit 10)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:R-EU_R0805")
+		(at 182.88 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e03a2d1c-274b-41c5-a2cd-1197655b3872")
+		(property "Reference" "R6"
+			(at 181.3814 130.81 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4R7"
+			(at 186.182 130.81 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:R0805"
+			(at 182.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0b52125-420c-4160-9ef7-96a767d4a18f")
+		)
+		(pin "2"
+			(uuid "5ecde152-59b0-4a80-b43d-8e21ab390747")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:R-EU_R0805")
+		(at 182.88 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed69ffde-664d-4482-9a1e-dc70760b2974")
+		(property "Reference" "R5"
+			(at 181.3814 74.93 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4R7"
+			(at 186.182 74.93 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:R0805"
+			(at 182.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2683afb9-9a4c-4feb-b1cd-8baf59592087")
+		)
+		(pin "2"
+			(uuid "b4648b2c-9554-4e5b-b25d-8dd4e106b0f8")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:GND")
+		(at 63.5 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f10d0129-9d07-47f4-b670-9f346376b941")
+		(property "Reference" "#GND2"
+			(at 63.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 142.24 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b010e68-df5e-44ab-aed8-c9c80e12b763")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "#GND2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:R-EU_R0805")
+		(at 68.58 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5c99d40-d247-446a-99b2-f9581c8dcfbc")
+		(property "Reference" "R1"
+			(at 67.0814 74.93 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4R7"
+			(at 71.882 74.93 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Front LEDs v1b:R0805"
+			(at 68.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cad1b467-3d3b-4f4d-8ced-a3ae2f471ce6")
+		)
+		(pin "2"
+			(uuid "86ef48cb-b8de-49c6-aeb7-81ec233338e6")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Front LEDs v1b-eagle-import:+5V")
+		(at 177.8 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fcd96b51-0f10-498b-9af7-188a1386ea4b")
+		(property "Reference" "#P+7"
+			(at 177.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 175.26 101.6 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47b6d549-4247-49ba-a8de-422d1ccbda6c")
+		)
+		(instances
+			(project ""
+				(path "/d255d9cb-d643-423e-9d86-a16647b3e8d3"
+					(reference "#P+7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

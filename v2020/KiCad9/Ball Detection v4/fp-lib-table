@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Ball Detection v4")(type "KiCad")(uri "$(KIPRJMOD)/Ball Detection v4.pretty")(options "")(descr ""))
+)

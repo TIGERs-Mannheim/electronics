@@ -9,6 +9,10 @@ The following files are present for each release.
 Electronics are designed with [Autodesk EAGLE](https://www.autodesk.com/education/free-software/eagle) which is available for free for students.
 This folder contains all schematics (.sch) and board (.brd) files.
 
+### KiCad9
+EAGLE files converted to KiCad version 9. Files got only a light cleanup pass.
+Note that no PCBs were ever produced using these files. The EAGLE files are still the ground truth.
+
 ### PDF
 All schematics are also available as PDF files. This makes it easier to view them without a need to install EAGLE.
 

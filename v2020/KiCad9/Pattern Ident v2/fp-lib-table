@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Pattern Ident v2")(type "KiCad")(uri "$(KIPRJMOD)/Pattern Ident v2.pretty")(options "")(descr ""))
+)

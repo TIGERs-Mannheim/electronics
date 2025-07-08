@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Powerboard v1")(type "KiCad")(uri "$(KIPRJMOD)/Powerboard v1.pretty")(options "")(descr ""))
+)
